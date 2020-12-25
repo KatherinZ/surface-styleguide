@@ -1,0 +1,3673 @@
+/* line 4, app/assets/stylesheets/comments.scss */
+input {
+  border: 1px solid #EBEBEB;
+}
+
+/* line 8, app/assets/stylesheets/comments.scss */
+form {
+  margin-bottom: 48px;
+}
+
+/* line 12, app/assets/stylesheets/comments.scss */
+textarea {
+  border: 1px solid #EBEBEB;
+  border-radius: 8px;
+  padding: 20px;
+  width: 60%;
+}
+
+/* line 19, app/assets/stylesheets/comments.scss */
+.actions input {
+  background-color: #517CE9;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+@font-face {
+  font-family: "Ponzu";
+  src: url("http://localhost:3000/fonts/Ponzu-LightItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+/* line 8, app/assets/stylesheets/landing.scss */
+body * {
+  transition: all .33s linear;
+  cursor: url("landing_img/cursor-217ce825c7ec562e0b361981ebfebbd476d1c10bb696b77ae13703d5e9884f55.svg"), auto;
+}
+
+/* line 13, app/assets/stylesheets/landing.scss */
+.paragraph {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 125%;
+}
+
+/* line 19, app/assets/stylesheets/landing.scss */
+.landing-wrapper h3 {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+}
+
+/* line 26, app/assets/stylesheets/landing.scss */
+.letter {
+  font-family: 'Ponzu', serif;
+  font-style: italic;
+}
+
+/* line 31, app/assets/stylesheets/landing.scss */
+.section {
+  cursor: url("landing_img/cursor-217ce825c7ec562e0b361981ebfebbd476d1c10bb696b77ae13703d5e9884f55.svg"), auto;
+}
+
+/* line 37, app/assets/stylesheets/landing.scss */
+.btn a {
+  cursor: pointer;
+  color: white;
+  background-color: #2763BD;
+  border-radius: 2px;
+  padding: 12px 20px;
+  font-size: 1.2vw;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* line 46, app/assets/stylesheets/landing.scss */
+.btn a:hover {
+  opacity: 0.98;
+}
+
+/* line 53, app/assets/stylesheets/landing.scss */
+.menu__logo .logo {
+  width: 10vw;
+}
+
+/* line 59, app/assets/stylesheets/landing.scss */
+.landing-header {
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 7vw;
+  margin-top: 3.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 70, app/assets/stylesheets/landing.scss */
+.landing-header .menu__logo {
+  width: 86%;
+  margin: 0 auto;
+  margin-top: 2.5vw;
+}
+
+/* line 78, app/assets/stylesheets/landing.scss */
+.landing-header__rect {
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* line 81, app/assets/stylesheets/landing.scss */
+.landing-header__rect:hover {
+  opacity: 0.9;
+}
+
+/* line 86, app/assets/stylesheets/landing.scss */
+.landing-header-active .landing-header__rect {
+  z-index: 2;
+}
+
+/* line 88, app/assets/stylesheets/landing.scss */
+.landing-header-active .landing-header__rect .menu-line:first-of-type {
+  transform: rotate(45deg) translate(0px, 2px);
+}
+
+/* line 91, app/assets/stylesheets/landing.scss */
+.landing-header-active .landing-header__rect .menu-line:nth-child(2) {
+  transform: rotate(-45deg) translate(2px, -6px);
+}
+
+/* line 96, app/assets/stylesheets/landing.scss */
+.menu-line {
+  width: 32px;
+  height: 2px;
+  background-color: #A9D726;
+  margin-bottom: 5px;
+  mix-blend-mode: difference;
+}
+
+/* line 105, app/assets/stylesheets/landing.scss */
+.landing-header__menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 700vw;
+  background-color: #101010;
+}
+
+/* line 113, app/assets/stylesheets/landing.scss */
+.landing-header__menu ul {
+  width: 86%;
+  margin: 0 auto;
+  padding-top: 10vw;
+  padding-bottom: 30vw;
+}
+
+/* line 120, app/assets/stylesheets/landing.scss */
+.landing-header__menu ul li:nth-of-type(2), .landing-header__menu ul li:nth-of-type(5) {
+  margin-left: 6vw;
+}
+
+/* line 124, app/assets/stylesheets/landing.scss */
+.landing-header__menu ul li:nth-of-type(3), .landing-header__menu ul li:nth-of-type(6) {
+  margin-left: 11vw;
+}
+
+/* line 130, app/assets/stylesheets/landing.scss */
+.landing-header__menu a {
+  cursor: pointer;
+  color: white;
+  font-size: 72px;
+  text-decoration: none;
+}
+
+/* line 137, app/assets/stylesheets/landing.scss */
+.landing-header__menu a:hover {
+  opacity: 0.9;
+  margin-left: 4vw;
+  transition: all .8s linear;
+}
+
+/* line 144, app/assets/stylesheets/landing.scss */
+.landing-header .landing-header__menu {
+  display: none;
+}
+
+/* line 147, app/assets/stylesheets/landing.scss */
+.landing-header-active .landing-header__menu {
+  display: block;
+}
+
+/* line 154, app/assets/stylesheets/landing.scss */
+.hero__blocks {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 160, app/assets/stylesheets/landing.scss */
+.hero__blocks__about {
+  width: 35%;
+}
+
+/* line 163, app/assets/stylesheets/landing.scss */
+.hero__blocks__about .menu__logo,
+.hero__blocks__about .btn,
+.hero__blocks__about .hero__blocks__about__text {
+  width: 68%;
+  padding-left: 7vw;
+}
+
+/* line 170, app/assets/stylesheets/landing.scss */
+.hero__blocks__about .menu__logo {
+  margin-top: 2.5vw;
+}
+
+/* line 174, app/assets/stylesheets/landing.scss */
+.hero__blocks__about .hero__blocks__about__text {
+  margin-top: 25vw;
+  margin-bottom: 3vw;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+/* line 183, app/assets/stylesheets/landing.scss */
+.hero__blocks__main {
+  width: 65%;
+}
+
+/* line 187, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__top {
+  padding: 10vw 7vw 5vw;
+  background-color: #101010;
+  color: white;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 100%;
+}
+
+/* line 195, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__top span:nth-of-type(2) {
+  margin-left: 42px;
+}
+
+/* line 198, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__top span:nth-of-type(3) {
+  margin-left: 80px;
+}
+
+/* line 201, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__top span:nth-of-type(4) {
+  margin-left: 42px;
+}
+
+/* line 204, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__top span:nth-of-type(5) {
+  margin-left: 176px;
+}
+
+/* line 209, app/assets/stylesheets/landing.scss */
+.hero__block__top__text__adaptive {
+  display: none;
+}
+
+/* line 213, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__bottom {
+  width: 100%;
+  margin: 0 auto;
+  padding: 8vw 0vw 9vw;
+  background-image: url("landing_img/hero-bc-4af0fe192d1073cdaac1587065db10f29b45f75595f69f53241b58e7b949a519.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: baseline;
+}
+
+/* line 224, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__bottom .hero__blocks__main__bottom__word {
+  width: 63%;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+}
+
+/* line 231, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__bottom .hero__blocks__main__bottom__word .hero__blocks__main__bottom__leters:first-of-type {
+  margin-right: -2px;
+}
+
+/* line 235, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__bottom .hero__blocks__main__bottom__word .hero__blocks__main__bottom__leters:nth-of-type(2) {
+  margin-right: -3px;
+  animation: up ease-in-out 4s infinite;
+}
+
+/* line 239, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__bottom .hero__blocks__main__bottom__word .hero__blocks__main__bottom__leters:nth-of-type(3) {
+  margin-right: -3px;
+  animation: up ease-in-out 4s infinite;
+  animation-delay: .4s;
+}
+
+/* line 244, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__bottom .hero__blocks__main__bottom__word .hero__blocks__main__bottom__leters:nth-of-type(4) {
+  margin-right: -3px;
+  animation: up ease-in-out 4s infinite;
+  animation-delay: .8s;
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* line 262, app/assets/stylesheets/landing.scss */
+.hero__blocks__main__bottom .hero__blocks__main__bottom__word .hero__blocks__main__bottom__leters img {
+  width: 9vw;
+}
+
+/* line 272, app/assets/stylesheets/landing.scss */
+.about {
+  background-color: #2763BD;
+  color: white;
+}
+
+/* line 276, app/assets/stylesheets/landing.scss */
+.about .about__text {
+  width: 86%;
+  margin: 0 auto;
+}
+
+/* line 279, app/assets/stylesheets/landing.scss */
+.about .about__text p {
+  width: 86%;
+  padding: 20vw 0 20vw 0;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+/* line 290, app/assets/stylesheets/landing.scss */
+.features {
+  padding: 10vw 0 14vw;
+}
+
+/* line 293, app/assets/stylesheets/landing.scss */
+.features__arrow {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 6.655vw;
+  margin-bottom: 3vw;
+  color: #B6B6B6;
+  align-items: center;
+}
+
+/* line 301, app/assets/stylesheets/landing.scss */
+.features__arrow span {
+  margin-right: 2vw;
+}
+
+/* line 306, app/assets/stylesheets/landing.scss */
+.features__blocks {
+  display: flex;
+  overflow-x: scroll;
+}
+
+/* line 311, app/assets/stylesheets/landing.scss */
+.features__block__item {
+  background-color: #2763BD;
+  border-radius: 10px 10px 0px 0px;
+  margin-right: 2.45vw;
+  color: white;
+}
+
+/* line 317, app/assets/stylesheets/landing.scss */
+.features__block__item img {
+  width: 30vw;
+}
+
+/* line 321, app/assets/stylesheets/landing.scss */
+.features__block__item h4 {
+  font-weight: 500;
+  font-size: 32px;
+  padding: 2vw 4vw 0vw 2vw;
+}
+
+/* line 327, app/assets/stylesheets/landing.scss */
+.features__block__item .features__block__item__desc {
+  display: flex;
+  align-items: center;
+}
+
+/* line 331, app/assets/stylesheets/landing.scss */
+.features__block__item .features__block__item__desc .paragraph {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 125%;
+  padding: 1vw 4vw 2vw 2vw;
+}
+
+/* line 338, app/assets/stylesheets/landing.scss */
+.features__block__item .features__block__item__desc a {
+  padding-right: 1vw;
+}
+
+/* line 343, app/assets/stylesheets/landing.scss */
+.features__block__item .paragraph {
+  padding: 1vw 4vw 2vw 2vw;
+}
+
+/* line 348, app/assets/stylesheets/landing.scss */
+.features__block__item:first-of-type {
+  background-color: #101010;
+  margin-left: 16vw;
+  color: white;
+  padding: 2vw;
+  padding: 2vw 4vw 2vw 2vw;
+}
+
+/* line 355, app/assets/stylesheets/landing.scss */
+.features__block__item:first-of-type h2 {
+  font-weight: 500;
+  font-size: 4vw;
+  line-height: 100%;
+  width: 28vw;
+}
+
+/* line 361, app/assets/stylesheets/landing.scss */
+.features__block__item:first-of-type h2 span:nth-of-type(2) {
+  margin-left: 5vw;
+}
+
+/* line 364, app/assets/stylesheets/landing.scss */
+.features__block__item:first-of-type h2 span:nth-of-type(3) {
+  margin-left: 9.45vw;
+}
+
+/* line 369, app/assets/stylesheets/landing.scss */
+.features__block__item:first-of-type .paragraph {
+  margin-top: 6vw;
+  padding: 0;
+}
+
+/* line 376, app/assets/stylesheets/landing.scss */
+.pages {
+  margin-bottom: 7.45vw;
+}
+
+/* line 379, app/assets/stylesheets/landing.scss */
+.pages .pages__pic {
+  width: 40vw;
+}
+
+/* line 381, app/assets/stylesheets/landing.scss */
+.pages .pages__pic img {
+  width: 100%;
+}
+
+/* line 386, app/assets/stylesheets/landing.scss */
+.pages .pages__wrapper {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 394, app/assets/stylesheets/landing.scss */
+.pages__text {
+  width: 45%;
+}
+
+/* line 397, app/assets/stylesheets/landing.scss */
+.pages__text p {
+  margin-top: 16px;
+  margin-bottom: 80px;
+}
+
+/* line 404, app/assets/stylesheets/landing.scss */
+.sport {
+  padding-top: 12.45vw;
+  padding-bottom: 16.54vw;
+  background-color: #2763BD;
+  color: white;
+}
+
+/* line 410, app/assets/stylesheets/landing.scss */
+.sport .paragraph {
+  width: 80%;
+}
+
+/* line 414, app/assets/stylesheets/landing.scss */
+.sport .btn a {
+  background-color: white;
+  color: #2763BD;
+}
+
+/* line 421, app/assets/stylesheets/landing.scss */
+.city {
+  margin-bottom: 5vw;
+  overflow-x: hidden;
+}
+
+/* line 425, app/assets/stylesheets/landing.scss */
+.city__text {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 10vw;
+}
+
+/* line 430, app/assets/stylesheets/landing.scss */
+.city__text h3 {
+  width: 40%;
+  margin-right: 2vw;
+}
+
+/* line 434, app/assets/stylesheets/landing.scss */
+.city__text .paragraph {
+  width: 40%;
+}
+
+/* line 439, app/assets/stylesheets/landing.scss */
+.city__lines {
+  width: 400%;
+  animation: left 140s linear infinite;
+  animation-direction: alternate;
+}
+
+/* line 444, app/assets/stylesheets/landing.scss */
+.city__lines:nth-of-type(2) {
+  animation: right 140s linear infinite;
+}
+
+/* line 447, app/assets/stylesheets/landing.scss */
+.city__lines:nth-of-type(4) {
+  animation: right 140s linear infinite;
+}
+
+/* line 452, app/assets/stylesheets/landing.scss */
+.city__lines__item {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 145%;
+}
+
+/* line 457, app/assets/stylesheets/landing.scss */
+.city__lines__item .city__lines__item__blue {
+  color: #2763BD;
+}
+
+/* line 460, app/assets/stylesheets/landing.scss */
+.city__lines__item .city__lines__item__green {
+  color: #A9D726;
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-75%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes right {
+  0% {
+    transform: translateX(-65%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-65%);
+  }
+}
+
+/* line 489, app/assets/stylesheets/landing.scss */
+.prof {
+  padding-top: 10vw;
+  padding-bottom: 20vw;
+  background-color: #101010;
+  color: white;
+  margin-bottom: 0;
+}
+
+/* line 496, app/assets/stylesheets/landing.scss */
+.prof .pages__pic {
+  background-image: url("landing_img/prof-bd95190c2263d5d8c6e0e64bc28d8252bb6b3ad193cc6644272e2d137d244e5c.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 505, app/assets/stylesheets/landing.scss */
+.tel {
+  background-color: #2763BD;
+  color: white;
+}
+
+/* line 509, app/assets/stylesheets/landing.scss */
+.tel .pages__pic {
+  padding-top: 6.45vw;
+  width: 45%;
+}
+
+/* line 514, app/assets/stylesheets/landing.scss */
+.tel .pages__text {
+  padding-top: 12.45vw;
+  padding-bottom: 18.54vw;
+  width: 40%;
+}
+
+/* line 520, app/assets/stylesheets/landing.scss */
+.tel .btn a {
+  background-color: white;
+  color: #2763BD;
+}
+
+/* line 527, app/assets/stylesheets/landing.scss */
+.final {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4vw;
+}
+
+/* line 535, app/assets/stylesheets/landing.scss */
+.final__text {
+  font-weight: 500;
+  font-size: 84px;
+  line-height: 100%;
+}
+
+/* line 541, app/assets/stylesheets/landing.scss */
+.final__text .final__text__title span:nth-of-type(2) {
+  margin-left: 80px;
+}
+
+/* line 544, app/assets/stylesheets/landing.scss */
+.final__text .final__text__title span:nth-of-type(3) {
+  margin-left: 176px;
+}
+
+/* line 550, app/assets/stylesheets/landing.scss */
+.final__block__anim {
+  margin-right: -10%;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 2vw;
+}
+
+/* line 559, app/assets/stylesheets/landing.scss */
+.final__block__anim__letters:first-of-type {
+  margin-right: -2px;
+}
+
+/* line 562, app/assets/stylesheets/landing.scss */
+.final__block__anim__letters:nth-of-type(2) {
+  margin-right: -3px;
+  animation: upSmall ease-in-out 4s infinite;
+}
+
+/* line 566, app/assets/stylesheets/landing.scss */
+.final__block__anim__letters:nth-of-type(3) {
+  margin-right: -3px;
+  animation: upSmall ease-in-out 4s infinite;
+  animation-delay: .4s;
+}
+
+/* line 571, app/assets/stylesheets/landing.scss */
+.final__block__anim__letters:nth-of-type(4) {
+  margin-right: -3px;
+  animation: upSmall ease-in-out 4s infinite;
+  animation-delay: .8s;
+}
+
+@keyframes upSmall {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(3vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* line 591, app/assets/stylesheets/landing.scss */
+.landing__footer {
+  width: 86%;
+  margin: 0 auto;
+  margin-top: 5vw;
+}
+
+/* line 597, app/assets/stylesheets/landing.scss */
+.footer__blocks {
+  display: flex;
+  align-items: end;
+  width: 29vw;
+  margin: 0 auto;
+  margin-right: 0;
+}
+
+/* line 605, app/assets/stylesheets/landing.scss */
+.footer__block {
+  width: 14vw;
+}
+
+/* line 608, app/assets/stylesheets/landing.scss */
+.footer__block h5 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #A9D726;
+  margin-bottom: 0.74vw;
+}
+
+/* line 618, app/assets/stylesheets/landing.scss */
+.footer__block a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101010;
+}
+
+/* line 625, app/assets/stylesheets/landing.scss */
+.footer__block a:hover {
+  opacity: 0.6;
+}
+
+/* line 631, app/assets/stylesheets/landing.scss */
+.footer__line {
+  padding: 2vw 0 2vw 0;
+  display: flex;
+  align-items: center;
+}
+
+/* line 636, app/assets/stylesheets/landing.scss */
+.footer__line span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #A0A0A0;
+  margin-left: 2vw;
+}
+
+/* line 644, app/assets/stylesheets/landing.scss */
+.footer__line a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #101010;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-right: 0;
+}
+
+@media (max-width: 1024px) {
+  /* line 659, app/assets/stylesheets/landing.scss */
+  .landing-wrapper h3 {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 38px;
+  }
+  /* line 665, app/assets/stylesheets/landing.scss */
+  .paragraph {
+    font-size: 20px;
+  }
+  /* line 669, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__top {
+    padding: 7vw 7vw 5vw;
+    font-size: 68px;
+  }
+  /* line 673, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__top span:nth-of-type(2) {
+    margin-left: 42px;
+  }
+  /* line 676, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__top span:nth-of-type(3) {
+    margin-left: 176px;
+  }
+  /* line 679, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__top span:nth-of-type(4) {
+    margin-left: 42px;
+  }
+  /* line 684, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__bottom {
+    padding: 9vw 0vw 10vw;
+  }
+  /* line 688, app/assets/stylesheets/landing.scss */
+  .hero__blocks__about .hero__blocks__about__text {
+    margin-top: 40vw;
+    font-size: 21px;
+  }
+  /* line 694, app/assets/stylesheets/landing.scss */
+  .features__block__item:first-of-type {
+    padding: 3vw 7vw 3vw 3vw;
+  }
+  /* line 696, app/assets/stylesheets/landing.scss */
+  .features__block__item:first-of-type .paragraph {
+    margin-top: 10vw;
+  }
+  /* line 701, app/assets/stylesheets/landing.scss */
+  .features__block__item img {
+    width: 35vw;
+  }
+  /* line 705, app/assets/stylesheets/landing.scss */
+  .features__block__item .features__block__item__desc .paragraph {
+    font-size: 20px;
+    padding: 2vw 4vw 2vw 2vw;
+  }
+  /* line 711, app/assets/stylesheets/landing.scss */
+  .school .pages__wrapper {
+    padding: 9vw 0vw 5vw;
+  }
+  /* line 716, app/assets/stylesheets/landing.scss */
+  .city__lines {
+    width: 600%;
+  }
+  /* line 720, app/assets/stylesheets/landing.scss */
+  .tel .pages__pic {
+    padding-top: 7.45vw;
+    width: 50%;
+  }
+  /* line 725, app/assets/stylesheets/landing.scss */
+  .final__text {
+    font-size: 68px;
+  }
+  /* line 729, app/assets/stylesheets/landing.scss */
+  .final__text {
+    font-size: 68px;
+  }
+  /* line 734, app/assets/stylesheets/landing.scss */
+  .final__block__anim__letters img {
+    width: 7.456vw;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 746, app/assets/stylesheets/landing.scss */
+  .btn a {
+    font-size: 14px;
+  }
+  /* line 753, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main {
+    width: 100%;
+  }
+  /* line 757, app/assets/stylesheets/landing.scss */
+  .hero__blocks {
+    flex-direction: column;
+  }
+  /* line 762, app/assets/stylesheets/landing.scss */
+  .hero__blocks__about .hero__blocks__about__text, .hero__blocks__about .btn {
+    display: none;
+  }
+  /* line 768, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__top {
+    padding: 7vw 7vw 7vw;
+    background-color: white;
+    color: #101010;
+  }
+  /* line 774, app/assets/stylesheets/landing.scss */
+  .hero__block__top__text__adaptive {
+    display: flex;
+    width: 86%;
+    justify-content: space-between;
+    font-size: 21px;
+    padding: 0vw 7vw 2vw;
+  }
+  /* line 781, app/assets/stylesheets/landing.scss */
+  .hero__block__top__text__adaptive .hero__blocks__about__text {
+    margin-bottom: 3vw;
+    width: 45%;
+  }
+  /* line 787, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__bottom {
+    margin-top: 3vw;
+    padding: 18vw 0vw 21vw;
+  }
+  /* line 791, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__bottom .hero__blocks__main__bottom__word .hero__blocks__main__bottom__leters img {
+    width: 17vw;
+  }
+  /* line 798, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__bottom .hero__blocks__main__bottom__word {
+    width: 85%;
+  }
+  /* line 806, app/assets/stylesheets/landing.scss */
+  .about .about__text p {
+    font-size: 40px;
+    width: 90%;
+    padding: 24vw 0 24vw 0;
+  }
+  /* line 815, app/assets/stylesheets/landing.scss */
+  .features__block__item {
+    margin-right: 5.45vw;
+  }
+  /* line 818, app/assets/stylesheets/landing.scss */
+  .features__block__item:first-of-type {
+    padding: 4vw 7vw 4vw 4vw;
+  }
+  /* line 821, app/assets/stylesheets/landing.scss */
+  .features__block__item:first-of-type .paragraph {
+    margin-top: 16vw;
+  }
+  /* line 824, app/assets/stylesheets/landing.scss */
+  .features__block__item:first-of-type h2 {
+    font-weight: 500;
+    font-size: 8vw;
+    line-height: 100%;
+    width: 57vw;
+  }
+  /* line 831, app/assets/stylesheets/landing.scss */
+  .features__block__item img {
+    width: 60vw;
+  }
+  /* line 837, app/assets/stylesheets/landing.scss */
+  .pages .pages__wrapper {
+    flex-direction: column;
+  }
+  /* line 840, app/assets/stylesheets/landing.scss */
+  .pages .pages__text {
+    width: 70%;
+  }
+  /* line 844, app/assets/stylesheets/landing.scss */
+  .pages .pages__pic {
+    width: 70%;
+    margin: 0 auto;
+    margin-right: 0;
+  }
+  /* line 853, app/assets/stylesheets/landing.scss */
+  .sport .pages__wrapper {
+    flex-direction: column-reverse;
+  }
+  /* line 859, app/assets/stylesheets/landing.scss */
+  .city {
+    margin-bottom: 11vw;
+  }
+  /* line 862, app/assets/stylesheets/landing.scss */
+  .city__text {
+    flex-direction: column;
+  }
+  /* line 864, app/assets/stylesheets/landing.scss */
+  .city__text h3 {
+    width: 60%;
+  }
+  /* line 868, app/assets/stylesheets/landing.scss */
+  .city__text .paragraph {
+    width: 60%;
+    margin-top: 2vw;
+  }
+  /* line 874, app/assets/stylesheets/landing.scss */
+  .city__lines {
+    width: 800%;
+  }
+  /* line 884, app/assets/stylesheets/landing.scss */
+  .tel .pages__wrapper {
+    flex-direction: column-reverse;
+  }
+  /* line 887, app/assets/stylesheets/landing.scss */
+  .tel .pages__text {
+    padding-bottom: 0;
+  }
+  /* line 893, app/assets/stylesheets/landing.scss */
+  .final {
+    margin-top: 15vw;
+    flex-direction: column;
+  }
+  /* line 898, app/assets/stylesheets/landing.scss */
+  .final__text {
+    display: flex;
+    align-items: flex-end;
+  }
+  /* line 903, app/assets/stylesheets/landing.scss */
+  .final__text__title {
+    width: 70%;
+  }
+  /* line 907, app/assets/stylesheets/landing.scss */
+  .final__block {
+    margin-top: 10vw;
+  }
+  /* line 911, app/assets/stylesheets/landing.scss */
+  .final__block__anim:nth-of-type(3) {
+    display: none;
+  }
+  /* line 917, app/assets/stylesheets/landing.scss */
+  .final__block__anim__letters:nth-of-type(2) {
+    margin-right: -3px;
+    animation: upSmallAdaptive ease-in-out 4s infinite;
+  }
+  /* line 921, app/assets/stylesheets/landing.scss */
+  .final__block__anim__letters:nth-of-type(3) {
+    margin-right: -3px;
+    animation: upSmallAdaptive ease-in-out 4s infinite;
+    animation-delay: .4s;
+  }
+  /* line 926, app/assets/stylesheets/landing.scss */
+  .final__block__anim__letters:nth-of-type(4) {
+    margin-right: -3px;
+    animation: upSmallAdaptive ease-in-out 4s infinite;
+    animation-delay: .8s;
+  }
+  @keyframes upSmallAdaptive {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(7vw);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  /* line 943, app/assets/stylesheets/landing.scss */
+  .final__block__anim__letters img {
+    width: 17vw;
+  }
+  /* line 952, app/assets/stylesheets/landing.scss */
+  .landing__footer {
+    margin-top: 11vw;
+    margin-bottom: 4vw;
+  }
+  /* line 957, app/assets/stylesheets/landing.scss */
+  .footer__blocks {
+    margin-top: 19vw;
+    width: 100%;
+    margin: 0;
+    margin-right: auto;
+  }
+  /* line 963, app/assets/stylesheets/landing.scss */
+  .footer__blocks .footer__block {
+    width: 28%;
+  }
+  /* line 966, app/assets/stylesheets/landing.scss */
+  .footer__blocks .footer__block h5 {
+    font-size: 16px;
+  }
+  /* line 969, app/assets/stylesheets/landing.scss */
+  .footer__blocks .footer__block a {
+    font-size: 21px;
+    line-height: 100%;
+  }
+  /* line 974, app/assets/stylesheets/landing.scss */
+  .footer__blocks .footer__block ul {
+    margin-top: 2vw;
+  }
+  /* line 977, app/assets/stylesheets/landing.scss */
+  .footer__blocks .footer__block ul li {
+    margin-bottom: 1vw;
+  }
+  /* line 983, app/assets/stylesheets/landing.scss */
+  .footer__blocks .footer__line {
+    padding: 5vw 0 2vw 0;
+  }
+}
+
+@media (max-width: 425px) {
+  /* line 992, app/assets/stylesheets/landing.scss */
+  .landing-wrapper h3 {
+    font-size: 24px;
+    line-height: 100%;
+  }
+  /* line 997, app/assets/stylesheets/landing.scss */
+  .landing-header .menu__logo {
+    margin-top: 7.5vw;
+  }
+  /* line 1001, app/assets/stylesheets/landing.scss */
+  .paragraph {
+    font-size: 18px;
+  }
+  /* line 1005, app/assets/stylesheets/landing.scss */
+  .landing-header {
+    margin-top: 7.5vw;
+  }
+  /* line 1010, app/assets/stylesheets/landing.scss */
+  .landing-header__menu a {
+    font-size: 48px;
+  }
+  /* line 1013, app/assets/stylesheets/landing.scss */
+  .landing-header__menu ul {
+    padding-top: 32vw;
+  }
+  /* line 1016, app/assets/stylesheets/landing.scss */
+  .landing-header__menu ul li {
+    margin-bottom: 1.45vw;
+  }
+  /* line 1022, app/assets/stylesheets/landing.scss */
+  .menu__logo .logo {
+    width: 26vw;
+  }
+  /* line 1027, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__top {
+    padding: 16vw 9vw 7vw;
+    font-size: 10vw;
+  }
+  /* line 1030, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__top span:nth-of-type(2) {
+    margin-left: 9vw;
+  }
+  /* line 1033, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__top span:nth-of-type(3) {
+    margin-left: 17vw;
+  }
+  /* line 1036, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__top span:nth-of-type(4) {
+    margin-left: 0;
+    margin-right: 9vw;
+  }
+  /* line 1040, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__top span:nth-of-type(5) {
+    margin-left: 9vw;
+  }
+  /* line 1046, app/assets/stylesheets/landing.scss */
+  .hero__block__top__text__adaptive {
+    flex-direction: column;
+    width: 100%;
+  }
+  /* line 1050, app/assets/stylesheets/landing.scss */
+  .hero__block__top__text__adaptive .hero__blocks__about__text {
+    margin-bottom: 5vw;
+    width: 80%;
+  }
+  /* line 1053, app/assets/stylesheets/landing.scss */
+  .hero__block__top__text__adaptive .hero__blocks__about__text p {
+    font-size: 18px;
+  }
+  /* line 1059, app/assets/stylesheets/landing.scss */
+  .hero__blocks__main__bottom {
+    margin-top: 12vw;
+    padding: 56vw 0vw 24vw;
+  }
+  /* line 1066, app/assets/stylesheets/landing.scss */
+  .about .about__text p {
+    font-size: 28px;
+    width: 100%;
+  }
+  /* line 1073, app/assets/stylesheets/landing.scss */
+  .features {
+    padding: 28vw 0 28vw;
+  }
+  /* line 1076, app/assets/stylesheets/landing.scss */
+  .features__block__item {
+    margin-right: 7vw;
+  }
+  /* line 1078, app/assets/stylesheets/landing.scss */
+  .features__block__item:first-of-type {
+    padding: 10vw 13vw 7vw 10vw;
+    margin-left: 5vw;
+  }
+  /* line 1082, app/assets/stylesheets/landing.scss */
+  .features__block__item:first-of-type h2 {
+    font-size: 12vw;
+    width: 60vw;
+  }
+  /* line 1087, app/assets/stylesheets/landing.scss */
+  .features__block__item img {
+    width: 80vw;
+  }
+  /* line 1094, app/assets/stylesheets/landing.scss */
+  .pages .pages__text {
+    width: 90%;
+  }
+  /* line 1096, app/assets/stylesheets/landing.scss */
+  .pages .pages__text p {
+    margin-bottom: 48px;
+  }
+  /* line 1100, app/assets/stylesheets/landing.scss */
+  .pages .pages__text .btn {
+    margin-bottom: 14vw;
+  }
+  /* line 1104, app/assets/stylesheets/landing.scss */
+  .pages .pages__pic {
+    width: 100%;
+    margin-top: 10vw;
+  }
+  /* line 1110, app/assets/stylesheets/landing.scss */
+  .school .pages__wrapper {
+    padding: 9vw 0vw 18vw;
+  }
+  /* line 1115, app/assets/stylesheets/landing.scss */
+  .sport {
+    padding-top: 17.45vw;
+    padding-bottom: 37.54vw;
+  }
+  /* line 1119, app/assets/stylesheets/landing.scss */
+  .sport .paragraph {
+    width: 90%;
+  }
+  /* line 1131, app/assets/stylesheets/landing.scss */
+  .city {
+    margin-bottom: 20vw;
+  }
+  /* line 1135, app/assets/stylesheets/landing.scss */
+  .city__text {
+    margin-top: 10vw;
+    margin-bottom: 20vw;
+  }
+  /* line 1139, app/assets/stylesheets/landing.scss */
+  .city__text h3,
+.city__text .paragraph {
+    width: 90%;
+  }
+  /* line 1145, app/assets/stylesheets/landing.scss */
+  .city__lines {
+    width: 900%;
+  }
+  /* line 1148, app/assets/stylesheets/landing.scss */
+  .city__lines .city__lines__item {
+    font-size: 40px;
+  }
+  /* line 1154, app/assets/stylesheets/landing.scss */
+  .prof {
+    padding-top: 18vw;
+    padding-bottom: 32vw;
+  }
+  /* line 1162, app/assets/stylesheets/landing.scss */
+  .tel .pages__text {
+    padding-top: 17.45vw;
+  }
+  /* line 1168, app/assets/stylesheets/landing.scss */
+  .final__text {
+    font-size: 12vw;
+    flex-direction: column;
+  }
+  /* line 1172, app/assets/stylesheets/landing.scss */
+  .final__text .final__text__title {
+    width: 100%;
+  }
+  /* line 1176, app/assets/stylesheets/landing.scss */
+  .final__text .btn {
+    width: 100%;
+  }
+  /* line 1182, app/assets/stylesheets/landing.scss */
+  .landing__footer {
+    margin-top: 28vw;
+  }
+  /* line 1184, app/assets/stylesheets/landing.scss */
+  .landing__footer .footer__block {
+    width: 40%;
+  }
+  /* line 1186, app/assets/stylesheets/landing.scss */
+  .landing__footer .footer__block h5,
+.landing__footer .footer__block a {
+    font-size: 14px;
+  }
+  /* line 1192, app/assets/stylesheets/landing.scss */
+  .footer__line {
+    padding: 10vw 0 2vw 0;
+    flex-direction: column;
+    align-items: start;
+  }
+  /* line 1197, app/assets/stylesheets/landing.scss */
+  .footer__line .menu__logo,
+.footer__line span,
+.footer__line a {
+    margin-bottom: 1.75vw;
+  }
+  /* line 1203, app/assets/stylesheets/landing.scss */
+  .footer__line span,
+.footer__line a {
+    margin-left: 0;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap");
+/* line 6, app/assets/stylesheets/posts.scss */
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 11, app/assets/stylesheets/posts.scss */
+.user-name {
+  font-size: 14px;
+  padding-left: 40px;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+/* line 16, app/assets/stylesheets/posts.scss */
+.user-name::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+/* line 28, app/assets/stylesheets/posts.scss */
+.title-post {
+  color: #554DD8;
+  font-size: 34px;
+  font-weight: 600;
+  text-transform: lowercase;
+  margin-bottom: 16px;
+}
+
+/* line 37, app/assets/stylesheets/posts.scss */
+.post-body {
+  background-color: #F9F9F9;
+  width: 50%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-bottom: 48px;
+}
+
+/* line 45, app/assets/stylesheets/posts.scss */
+.comments-section {
+  font-size: 24px;
+}
+
+/* line 49, app/assets/stylesheets/posts.scss */
+.add-comment {
+  margin-top: 64px;
+  color: grey;
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+@font-face {
+  font-family: "Ponzu";
+  src: url("http://localhost:3000/fonts/Ponzu-LightItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* line 4, app/assets/stylesheets/scaffolds.scss */
+html {
+  overflow-x: hidden;
+}
+
+/* line 7, app/assets/stylesheets/scaffolds.scss */
+body {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  position: relative;
+}
+
+/* line 38, app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 41, app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, app/assets/stylesheets/scaffolds.scss */
+div.field,
+div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 48, app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 51, app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 56, app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+/* line 63, app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+/* line 72, app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 76, app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+/* line 8, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* line 17, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper h2 {
+  font-weight: 600;
+  font-size: 4vw;
+  margin-top: 7vw;
+  margin-left: 16vw;
+  line-height: 120%;
+}
+
+/* line 25, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper h3 {
+  font-weight: 600;
+  font-size: 2vw;
+  margin-top: 4vw;
+  margin-left: 16vw;
+  line-height: 120%;
+  max-width: 30vw;
+}
+
+/* line 34, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper h4 {
+  font-weight: 600;
+  font-size: 1.5vw;
+  margin-left: 16vw;
+  margin-top: 3vw;
+  line-height: 120%;
+}
+
+/* line 42, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper h5 {
+  margin-top: 2vw;
+  font-weight: 600;
+  margin-left: 16vw;
+  font-size: 1.15vw;
+}
+
+/* line 49, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper p {
+  font-size: 1.2vw;
+  max-width: 36vw;
+  margin-left: 16vw;
+  margin-top: 1vw;
+  line-height: 130%;
+}
+
+/* line 57, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper li {
+  font-size: 1.2vw;
+}
+
+/* line 60, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper img {
+  padding-top: 1vw;
+}
+
+/* line 64, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .links a {
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1vw;
+  padding: 5vw;
+}
+
+/* line 73, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .menu {
+  position: fixed;
+  z-index: 20;
+  padding-top: 16vw;
+  margin-left: 3vw;
+}
+
+/* line 78, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .menu ul {
+  list-style: none;
+  font-weight: 500;
+}
+
+/* line 82, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .menu ul li a {
+  color: #A7D22C;
+  line-height: 1.5vw;
+  font-size: 1.2vw;
+  text-decoration: none;
+}
+
+/* line 89, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .menu ul a:hover {
+  color: #DDDDDD;
+  cursor: pointer;
+  background: none;
+}
+
+/* line 98, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section {
+  background-color: #101010;
+  color: #fff;
+  height: 45vw;
+  padding-bottom: 12vw;
+}
+
+/* line 106, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__top .head-section__top__left {
+  padding: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* line 111, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__top .head-section__top__left h3 {
+  font-weight: 500;
+  padding-left: 1vw;
+  margin: 0 auto;
+}
+
+/* line 116, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__top .head-section__top__left img {
+  max-width: 3vw;
+}
+
+/* line 119, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__top .head-section__top__left .hs__menu__burger {
+  display: none;
+}
+
+/* line 121, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__top .head-section__top__left .hs__menu__burger .burger-line {
+  width: 3vw;
+  height: 0.15vw;
+  background-color: #A7D22C;
+  margin-bottom: 1vw;
+}
+
+/* line 128, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__top .head-section__top__left .hs__menu__cross {
+  display: none;
+  margin-left: 84vw;
+  position: absolute;
+  margin-top: 0vw;
+}
+
+/* line 133, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__top .head-section__top__left .hs__menu__cross img {
+  width: 5vw;
+}
+
+/* line 138, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__top .hs__menu {
+  display: none;
+}
+
+/* line 140, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__top .hs__menu .hs__side__menu {
+  position: absolute;
+  background-color: #101010;
+  width: 100vw;
+  height: auto;
+  z-index: 100;
+  padding-bottom: 8vw;
+}
+
+/* line 148, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__top .hs__menu .hs__side__menu li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 7vw;
+}
+
+/* line 156, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__top .hs__menu .hs__side__menu li a:hover {
+  color: #A7D22C;
+  cursor: pointer;
+}
+
+/* line 165, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__surface {
+  width: 100%;
+  margin: 0 auto;
+  padding: 8vw 0vw 9vw;
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: baseline;
+}
+
+/* line 176, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__surface .head-section__surface__word {
+  width: 63%;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+}
+
+/* line 182, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__surface .head-section__surface__word .letters:first-of-type {
+  margin-right: -2px;
+}
+
+/* line 186, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__surface .head-section__surface__word .letters:nth-of-type(2) {
+  margin-right: -3px;
+  animation: wavering ease-in-out 4s infinite;
+}
+
+/* line 190, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__surface .head-section__surface__word .letters:nth-of-type(3) {
+  margin-right: -3px;
+  animation: wavering ease-in-out 4s infinite;
+  animation-delay: .4s;
+}
+
+/* line 195, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__surface .head-section__surface__word .letters:nth-of-type(4) {
+  margin-right: -3px;
+  animation: wavering ease-in-out 4s infinite;
+  animation-delay: .8s;
+}
+
+@keyframes wavering {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* line 213, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .head-section__surface .head-section__surface__word img {
+  width: 13vw;
+}
+
+/* line 223, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .about-brand .character {
+  margin-top: 5vw;
+}
+
+/* line 225, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .about-brand .character span {
+  font-family: 'Ponzu', serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* line 230, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .about-brand .character h3 {
+  font-size: 6vw;
+  font-weight: 500;
+  max-width: 70vw;
+  margin-top: 0;
+}
+
+/* line 236, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .about-brand .character h3:nth-of-type(1) {
+  margin-left: 23vw;
+}
+
+/* line 239, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .about-brand .character h3:nth-of-type(2) {
+  margin-left: 50vw;
+}
+
+/* line 243, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .about-brand .character h3:nth-of-type(4) {
+  margin-left: 28vw;
+}
+
+/* line 246, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .about-brand .character .string-two {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 6vw;
+}
+
+/* line 250, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .about-brand .character .string-two h3 {
+  margin-left: 20vw;
+}
+
+/* line 254, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .about-brand .character h3:hover {
+  color: #A7D22C;
+  transition: 100ms all ease;
+}
+
+/* line 257, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .about-brand .character h3:hover span {
+  transition: 50ms all ease;
+}
+
+/* line 263, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .about-brand h2 + p {
+  margin-top: 4vw;
+}
+
+/* line 270, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo .logo__form__meaning img {
+  margin-left: 16vw;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  padding-left: 23vw;
+}
+
+/* line 277, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo .logo__form__principle {
+  padding: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* line 282, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo .logo__form__principle h5 {
+  color: #2763BD;
+}
+
+/* line 285, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo .logo__form__principle p {
+  width: 28vw;
+}
+
+/* line 293, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__principles h4 {
+  margin-bottom: 0vw;
+}
+
+/* line 296, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__principles .pr-right {
+  padding-left: 5vw;
+  padding-top: 5vw;
+  margin-left: 26vw;
+}
+
+/* line 302, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__principles .line img {
+  max-width: 100vw;
+  margin-left: 16vw;
+}
+
+/* line 309, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__build {
+  background-color: #101010;
+  padding-bottom: 10vw;
+  padding-top: 4vw;
+}
+
+/* line 314, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__build h3, .styleguide-wrapper .logo__form__build p {
+  color: #fff;
+}
+
+/* line 317, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__build .logo__form__build__pics img {
+  margin-left: 16vw;
+  padding-top: 5vw;
+}
+
+/* line 321, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__build .logo__form__build__pics + img {
+  padding-top: 7vw;
+  margin-left: 42vw;
+}
+
+/* line 328, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__use img {
+  margin-left: 16vw;
+}
+
+/* line 331, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__use .logo__form__use__pics {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 335, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__use .logo__form__use__pics img:nth-child(1) {
+  width: 20vw;
+  padding-top: 4vw;
+}
+
+/* line 339, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__use .logo__form__use__pics img:nth-child(2) {
+  width: 15vw;
+  padding-top: 4vw;
+}
+
+/* line 343, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__use .logo__form__use__pics img:nth-child(3) {
+  width: 10vw;
+  padding-top: 4vw;
+}
+
+/* line 350, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__use__elements {
+  padding-top: 4vw;
+}
+
+/* line 352, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__use__elements .sign-field {
+  margin-left: 16vw;
+  padding-bottom: 3vw;
+  padding-top: 1vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* line 358, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__use__elements .sign-field img {
+  margin-left: 0;
+}
+
+/* line 361, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__use__elements .sign-field img + img {
+  margin-left: 3vw;
+}
+
+/* line 367, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__locations {
+  padding-top: 4vw;
+  padding-bottom: 10vw;
+  background-color: #101010;
+}
+
+/* line 371, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__locations h3 {
+  color: #fff;
+}
+
+/* line 374, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__locations p {
+  color: #ffffff;
+  width: 23vw;
+}
+
+/* line 378, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__locations .logo__form__locations__loc {
+  display: flex;
+  flex-direction: row;
+  margin-left: 16vw;
+  padding-top: 3vw;
+}
+
+/* line 383, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__locations .logo__form__locations__loc img {
+  max-height: 45vw;
+}
+
+/* line 386, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__locations .logo__form__locations__loc img + img {
+  padding-left: 3vw;
+}
+
+/* line 391, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__locations .logo__form__locations__loc:nth-of-type(4) img {
+  max-width: 68vw;
+  height: auto;
+}
+
+/* line 398, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__location__restrict {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: baseline;
+  margin-left: 16vw;
+}
+
+/* line 404, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__location__restrict .restrict img {
+  padding-top: 5vw;
+  max-width: 15vw;
+}
+
+/* line 408, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .logo__form__location__restrict .restrict p {
+  width: 20vw;
+  padding-top: 1vw;
+  margin-left: 0;
+}
+
+/* line 416, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color {
+  margin-bottom: 0;
+}
+
+/* line 418, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color .color__choice__main {
+  display: flex;
+}
+
+/* line 419, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color .color__choice__main img {
+  margin-left: 16vw;
+}
+
+/* line 425, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color .color__choice__sub {
+  display: flex;
+}
+
+/* line 426, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color .color__choice__sub img {
+  margin-left: 16vw;
+}
+
+/* line 432, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color .main-color-rect:last-child {
+  margin-left: -15vw;
+}
+
+/* line 435, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color .sub-color-rect:last-child {
+  margin-left: -15vw;
+}
+
+/* line 440, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .amount__color {
+  margin-left: 16vw;
+}
+
+/* line 442, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .amount__color img {
+  padding-top: 2vw;
+  width: 70vw;
+}
+
+/* line 448, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color__couples {
+  background-color: #F2F2F2;
+  padding-bottom: 10vw;
+}
+
+/* line 451, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color__couples h3 {
+  padding-top: 3vw;
+}
+
+/* line 454, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color__couples img {
+  max-width: 40vw;
+  padding-top: 3vw;
+}
+
+/* line 458, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color__couples .color__couples__comb {
+  margin-left: 16vw;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* line 465, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .color__couples__restrict {
+  margin-left: 16vw;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* line 474, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo {
+  padding-bottom: 10vw;
+  padding-top: 3vw;
+  background-color: #101010;
+  color: #fff;
+}
+
+/* line 477, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo h2 {
+  margin-top: 0;
+}
+
+/* line 482, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .line {
+  max-width: 75vw;
+  height: 0.1vw;
+  background-color: #fff;
+  margin-top: 3vw;
+  margin-left: 16vw;
+}
+
+/* line 488, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .line img {
+  margin-left: 16vw;
+  max-width: 35vw;
+}
+
+/* line 493, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__font__choice__text {
+  margin-left: 16vw;
+  padding-top: 3vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 498, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__font__choice__text .garns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* line 503, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__font__choice__text p {
+  max-width: 30vw;
+  margin-left: -30vw;
+  margin-right: 10vw;
+}
+
+/* line 509, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__slant {
+  margin-left: 16vw;
+  padding-top: 3vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: top;
+}
+
+/* line 515, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__slant p {
+  max-width: 28vw;
+  max-height: auto;
+  margin-left: 0;
+}
+
+/* line 522, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__size {
+  padding-top: 3vw;
+}
+
+/* line 524, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__size .typo__size__line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: 500;
+}
+
+/* line 531, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__size img {
+  margin-left: 16vw;
+}
+
+/* line 534, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__size p {
+  padding-right: 20vw;
+}
+
+/* line 538, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__size .typo__size__line:nth-of-type(2) h3 {
+  font-size: 2vw;
+}
+
+/* line 543, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__size .typo__size__line:nth-of-type(3) h3 {
+  font-size: 1.5vw;
+}
+
+/* line 548, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__size .typo__size__line:nth-of-type(4) h3 {
+  font-size: 1vw;
+}
+
+/* line 553, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo .typo__format {
+  margin-left: 16vw;
+  padding-top: 3vw;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+
+/* line 560, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .typo img {
+  max-height: 32vw;
+  padding-right: 2vw;
+}
+
+/* line 569, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__meaning__wave {
+  margin-top: 7vw;
+}
+
+/* line 570, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__meaning__wave img {
+  margin-left: 35vw;
+}
+
+/* line 576, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__construct__stage img {
+  margin-left: 16vw;
+}
+
+/* line 580, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .final-formats {
+  padding-bottom: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: left;
+  margin-left: 16vw;
+}
+
+/* line 587, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .final-formats img {
+  max-width: 20vw;
+}
+
+/* line 590, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .final-formats p {
+  margin-left: 0;
+}
+
+/* line 593, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .final-formats .final-format {
+  padding-right: 4vw;
+}
+
+/* line 597, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__photo {
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+  background-color: #101010;
+}
+
+/* line 601, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__photo h3, .styleguide-wrapper .grid .grid__photo p {
+  color: #fff;
+}
+
+/* line 604, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__photo .grid__block {
+  padding-top: 2vw;
+  margin-left: 16vw;
+}
+
+/* line 607, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__photo .grid__block img, .styleguide-wrapper .grid .grid__photo .grid__block p {
+  margin-left: 0;
+}
+
+/* line 610, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__photo .grid__block p {
+  max-width: 25vw;
+}
+
+/* line 614, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__photo .grid__block .grid__photo__example img {
+  max-width: 35vw;
+}
+
+/* line 619, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__photo h3 {
+  width: 20vw;
+}
+
+/* line 622, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__photo .grid__photo__blocks + img {
+  max-width: 50vw;
+  margin-left: 26vw;
+  padding-top: 6vw;
+}
+
+/* line 630, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake img {
+  padding-top: 5vw;
+  max-width: 75vw;
+  margin-left: 20vw;
+}
+
+/* line 635, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake img + img {
+  max-width: 60vw;
+}
+
+/* line 639, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake img:nth-of-type(3) {
+  max-width: 60vw;
+}
+
+/* line 642, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples {
+  background-color: #101010;
+  padding-top: 1vw;
+  margin-top: 10vw;
+  padding-bottom: 10vw;
+}
+
+/* line 647, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples h3 {
+  color: #fff;
+}
+
+/* line 650, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .examples {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  margin-left: 16vw;
+}
+
+/* line 656, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .examples img {
+  max-width: 40vw;
+  padding-right: 2vw;
+  margin-left: 0;
+}
+
+/* line 661, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .examples img + img {
+  margin-left: 0;
+}
+
+/* line 665, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .examples + img {
+  max-width: 10vw;
+  padding-top: 1vw;
+  margin-left: 16vw;
+}
+
+/* line 671, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .poster-check .poster-check__block {
+  margin-left: 36vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* line 675, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .poster-check .poster-check__block img {
+  max-width: 35vw;
+  margin-left: 0;
+  padding-right: 2vw;
+}
+
+/* line 681, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .poster-check .poster-check__block:last-of-type {
+  margin-left: 30vw;
+}
+
+/* line 693, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .photos .photos__rule p + img {
+  padding-top: 6vw;
+  margin-left: 16vw;
+}
+
+/* line 697, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .photos .photos__rule .photo__rule__faces {
+  display: grid;
+  grid-template-rows: 22vw 22vw 22vw;
+  grid-template-columns: 22vw 22vw 22vw;
+  margin-left: 16vw;
+}
+
+/* line 702, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .photos .photos__rule .photo__rule__faces img {
+  max-width: 20vw;
+  padding-right: 2vw;
+}
+
+/* line 708, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .photos .photos__rule .photo__rule__topic {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  margin-left: 16vw;
+}
+
+/* line 713, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .photos .photos__rule .photo__rule__topic img {
+  max-height: 20vw;
+}
+
+/* line 716, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .photos .photos__rule .photo__rule__topic img + img {
+  margin-left: 1vw;
+}
+
+/* line 720, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .photos .photos__rule .photo__rule__topic + img {
+  max-width: 10vw;
+  margin-left: 16vw;
+}
+
+/* line 729, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__metaphor__pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 733, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__metaphor__pics img + img {
+  max-width: 25vw;
+  padding-left: 15vw;
+}
+
+/* line 738, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__metaphor__photos {
+  margin-left: 23vw;
+  padding-top: 6vw;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 743, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__metaphor__photos img {
+  padding-left: 4vw;
+  max-height: 30vw;
+}
+
+/* line 748, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__mechanic {
+  margin-bottom: 22vw;
+}
+
+/* line 750, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__mechanic ul {
+  padding-bottom: 6vw;
+}
+
+/* line 752, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__mechanic ul li {
+  max-width: 33vw;
+  padding-top: 2vw;
+  margin-left: 16vw;
+}
+
+/* line 759, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__mechanic img {
+  position: absolute;
+  max-width: 70vw;
+  margin-top: -3vw;
+  justify-content: center;
+  margin-left: 16vw;
+}
+
+/* line 766, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__usage {
+  padding-top: 14vw;
+  padding-bottom: 10vw;
+  background-color: #101010;
+  color: #fff;
+}
+
+/* line 771, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__usage .graphic__blocks {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10vw;
+}
+
+/* line 775, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__usage .graphic__blocks .graphic__block {
+  margin-left: -10vw;
+  width: 35vw;
+}
+
+/* line 780, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__usage .graphic__poster {
+  display: flex;
+  flex-direction: row;
+  margin-left: 16vw;
+  padding-top: 10vw;
+  padding-bottom: 4vw;
+}
+
+/* line 786, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__usage .graphic__poster img {
+  max-width: 16vw;
+  padding-left: 1vw;
+}
+
+/* line 792, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media {
+  margin-left: 16vw;
+}
+
+/* line 794, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media h4 {
+  margin-left: 0;
+}
+
+/* line 798, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media__insta {
+  padding-bottom: 6vw;
+  display: flex;
+}
+
+/* line 801, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media__insta img {
+  max-height: 30vw;
+  padding-right: 4vw;
+}
+
+/* line 806, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media__fb {
+  padding-bottom: 6vw;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* line 810, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media__fb img {
+  max-width: 35vw;
+  padding-right: 2vw;
+}
+
+/* line 816, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media__yt {
+  padding-bottom: 6vw;
+}
+
+/* line 818, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media__yt img {
+  max-width: 60vw;
+}
+
+/* line 822, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media__tw {
+  padding-bottom: 6vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* line 827, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media__tw img {
+  max-width: 35vw;
+}
+
+/* line 831, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media__print {
+  display: grid;
+  grid-template-columns: 33vw 33vw;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* line 835, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .graphic .graphic__media__print img {
+  max-height: 20vw;
+  padding-right: 2vw;
+}
+
+/* line 842, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .voice {
+  padding-bottom: 10vw;
+}
+
+/* line 844, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .voice .voice__blocks {
+  margin-left: 16vw;
+  padding-top: 3vw;
+}
+
+/* line 847, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .voice .voice__blocks img:nth-of-type(1) {
+  margin-left: 50vw;
+  margin-top: -10vw;
+}
+
+/* line 851, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .voice .voice__blocks img:nth-of-type(2) {
+  margin-left: 10vw;
+  margin-top: 0;
+}
+
+/* line 855, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .voice .voice__blocks img:nth-of-type(3) {
+  margin-left: 30vw;
+  margin-top: 5vw;
+}
+
+/* line 859, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .voice .voice__blocks img:nth-of-type(4) {
+  position: absolute;
+  margin-left: -55vw;
+  margin-top: 15vw;
+}
+
+/* line 867, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .merch {
+  background-color: #101010;
+  color: #fff;
+  padding-top: 1vw;
+  padding-bottom: 5vw;
+}
+
+/* line 872, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .merch .merch__block {
+  margin-left: 16vw;
+  overflow-x: scroll;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 877, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .merch .merch__block img {
+  padding-left: 0.1vw;
+  max-height: 40vw;
+}
+
+/* line 882, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .merch .merch__block:nth-of-type(1) {
+  padding-left: 230vw;
+}
+
+/* line 885, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .merch .merch__block:nth-of-type(1) img {
+  max-height: 50vw;
+}
+
+/* line 890, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .merch .merch__block:nth-of-type(2) {
+  padding-left: 70vw;
+}
+
+/* line 893, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .merch .merch__block:nth-of-type(3) {
+  padding-left: 135vw;
+}
+
+/* line 896, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .merch .final-logo {
+  margin-left: 47vw;
+  padding-top: 8vw;
+}
+
+/* line 899, app/assets/stylesheets/styleguide.scss */
+.styleguide-wrapper .merch .final-logo img {
+  max-width: 6vw;
+}
+
+@media (max-width: 768px) {
+  /* line 909, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper h2 {
+    margin-left: 8vw;
+    font-size: 9vw;
+    line-height: 100%;
+    max-width: 60vw;
+  }
+  /* line 915, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper h3 {
+    margin-left: 8vw;
+    margin-top: 6vw;
+    font-size: 4vw;
+    max-width: 70vw;
+  }
+  /* line 921, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper h4 {
+    margin-left: 8vw;
+    font-size: 3vw;
+  }
+  /* line 925, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper p, .styleguide-wrapper li {
+    margin-left: 8vw;
+    margin-bottom: 4vw;
+    margin-top: 2vw;
+    font-size: 2.3vw;
+    line-height: 103%;
+    max-width: 55vw;
+  }
+  /* line 933, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper img {
+    padding-left: 0;
+  }
+  /* line 938, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .menu {
+    display: none;
+  }
+  /* line 941, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section {
+    padding-bottom: 70vw;
+  }
+  /* line 945, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section .head-section__top .head-section__top__left img {
+    max-width: 5vw;
+  }
+  /* line 949, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section .head-section__top .hs__menu__burger {
+    display: block;
+  }
+  /* line 951, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section .head-section__top .hs__menu__burger .burger-line {
+    width: 5vw;
+  }
+  /* line 955, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section .head-section__top .hs__menu__cross {
+    display: none;
+  }
+  /* line 958, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section .head-section__top .hs__menu {
+    display: none;
+  }
+  /* line 960, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section .head-section__top .hs__menu li {
+    padding-top: 5vw;
+  }
+  /* line 965, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section .head-section__surface {
+    margin-top: 30vw;
+  }
+  /* line 971, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo img {
+    max-width: 70vw;
+    justify-content: center;
+    padding-left: 0vw;
+    margin-left: 0vw;
+  }
+  /* line 978, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__meaning img {
+    margin-left: 0vw;
+    padding-left: 8vw;
+  }
+  /* line 983, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__principles {
+    padding-bottom: 10vw;
+  }
+  /* line 987, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .line img {
+    max-width: 100vw;
+    margin-left: 8vw;
+  }
+  /* line 992, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__principle {
+    display: block;
+    padding-bottom: 8vw;
+  }
+  /* line 995, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__principle h5 {
+    font-size: 3vw;
+    margin-left: 8vw;
+  }
+  /* line 999, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__principle p {
+    width: 70vw;
+  }
+  /* line 1004, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__build .logo__form__build__pics + img {
+    margin-left: 16vw;
+    width: 55vw;
+  }
+  /* line 1009, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use {
+    padding-top: 2vw;
+    padding-bottom: 6vw;
+  }
+  /* line 1013, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__pics {
+    padding-top: 4vw;
+    margin-left: 8vw;
+  }
+  /* line 1016, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__pics img:first-child {
+    width: 45vw;
+  }
+  /* line 1019, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__pics img:nth-child(2) {
+    width: 35vw;
+  }
+  /* line 1022, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__pics img:nth-child(3) {
+    width: 25vw;
+  }
+  /* line 1027, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__elements {
+    padding-top: 3vw;
+    padding-bottom: 6vw;
+  }
+  /* line 1030, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__elements .sign-field {
+    margin-left: 8vw;
+    padding-top: 2vw;
+    display: flex;
+    align-items: center;
+  }
+  /* line 1035, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__elements .sign-field img {
+    margin-left: 0;
+    max-height: 18vw;
+  }
+  /* line 1039, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__elements .sign-field img + img {
+    margin-left: 3vw;
+    max-width: 19vw;
+  }
+  /* line 1045, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__elements .sign-field:last-of-type img {
+    max-width: 42vw;
+  }
+  /* line 1053, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__locations img {
+    margin-left: 0;
+  }
+  /* line 1056, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__locations p {
+    width: 70vw;
+  }
+  /* line 1059, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__locations .logo__form__locations__loc {
+    margin-left: 8vw;
+  }
+  /* line 1062, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__locations .logo__form__location__restrict {
+    margin-left: 8vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  /* line 1067, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__locations .logo__form__location__restrict .restrict img {
+    max-width: 36vw;
+    padding-top: 3vw;
+    margin-left: 0;
+    padding-right: 4vw;
+  }
+  /* line 1073, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__locations .logo__form__location__restrict .restrict p {
+    width: 36vw;
+    margin-left: 0;
+    padding-right: 4vw;
+  }
+  /* line 1082, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color {
+    margin-bottom: 0;
+  }
+  /* line 1084, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__choice__main {
+    display: flex;
+  }
+  /* line 1085, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__choice__main img {
+    margin-left: 8vw;
+  }
+  /* line 1090, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__choice__sub {
+    display: flex;
+  }
+  /* line 1091, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__choice__sub img {
+    margin-left: 8vw;
+  }
+  /* line 1096, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .main-color-rect:last-child {
+    margin-left: -5vw;
+  }
+  /* line 1099, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .sub-color-rect:last-child {
+    margin-left: -5vw;
+  }
+  /* line 1103, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .amount__color {
+    margin-left: 8vw;
+  }
+  /* line 1105, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .amount__color img {
+    padding-top: 2vw;
+    width: 86vw;
+  }
+  /* line 1110, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__couples {
+    background-color: #F2F2F2;
+    padding-bottom: 6vw;
+  }
+  /* line 1113, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__couples img {
+    max-width: 40vw;
+    padding-top: 5vw;
+  }
+  /* line 1117, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__couples .color__couples__comb {
+    margin-left: 8vw;
+    display: block;
+  }
+  /* line 1122, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__couples__restrict {
+    margin-left: 8vw;
+    display: block;
+  }
+  /* line 1129, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo img {
+    max-width: 85vw;
+    max-height: 65vw;
+  }
+  /* line 1133, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .line {
+    max-width: 80vw;
+    height: 0.1vw;
+    background-color: #fff;
+    margin-top: 3vw;
+    margin-left: 8vw;
+  }
+  /* line 1140, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__slant,
+.styleguide-wrapper .typo .typo__font__choice__text {
+    margin-left: 8vw;
+  }
+  /* line 1143, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__slant p,
+.styleguide-wrapper .typo .typo__font__choice__text p {
+    color: #fff;
+    max-width: 70vw;
+  }
+  /* line 1148, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__font__choice__text {
+    display: block;
+  }
+  /* line 1150, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__font__choice__text .garns {
+    display: block;
+  }
+  /* line 1153, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__font__choice__text p {
+    margin-left: 0;
+  }
+  /* line 1156, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__font__choice__text p + p {
+    padding-top: 0;
+  }
+  /* line 1160, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__slant {
+    display: block;
+  }
+  /* line 1162, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__slant img {
+    max-height: 75vw;
+  }
+  /* line 1166, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__size {
+    padding-bottom: 10vw;
+  }
+  /* line 1168, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__size p {
+    padding-right: 10vw;
+    font-size: 3vw;
+  }
+  /* line 1172, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__size img {
+    margin-left: 8vw;
+  }
+  /* line 1176, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__size .typo__size__line:nth-of-type(2) h3 {
+    font-size: 5vw;
+  }
+  /* line 1181, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__size .typo__size__line:nth-of-type(3) h3 {
+    font-size: 4vw;
+  }
+  /* line 1186, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__size .typo__size__line:nth-of-type(4) h3 {
+    font-size: 3.5vw;
+  }
+  /* line 1191, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__format {
+    display: block;
+    margin-left: 8vw;
+  }
+  /* line 1195, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo img {
+    max-height: 75vw;
+  }
+  /* line 1198, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo img:nth-of-type(2) {
+    padding-top: 3vw;
+  }
+  /* line 1204, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__meaning__wave {
+    margin-left: 0;
+  }
+  /* line 1206, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__meaning__wave img {
+    margin-left: 8vw;
+  }
+  /* line 1210, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid img {
+    max-width: 80vw;
+  }
+  /* line 1214, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__construct__stage img {
+    margin-left: 8vw;
+  }
+  /* line 1218, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .final-formats {
+    display: flex;
+    margin-left: 8vw;
+  }
+  /* line 1221, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .final-formats img {
+    max-height: 50vw;
+  }
+  /* line 1224, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .final-formats p {
+    margin-left: 0vw;
+  }
+  /* line 1229, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .final-format img {
+    margin-left: 0vw;
+    padding-right: 6vw;
+  }
+  /* line 1234, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid h3, .styleguide-wrapper .grid p {
+    margin-left: 8vw;
+  }
+  /* line 1238, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__photo {
+    padding-bottom: 6vw;
+    padding-top: 2vw;
+  }
+  /* line 1241, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__photo .grid__block {
+    margin-left: 8vw;
+  }
+  /* line 1243, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__photo .grid__block p {
+    max-width: 70vw;
+  }
+  /* line 1247, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__photo .grid__block .grid__photo__example img {
+    max-width: 80vw;
+  }
+  /* line 1252, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__photo .grid__photo__blocks {
+    padding-top: 2vw;
+  }
+  /* line 1255, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__photo .grid__block {
+    display: block;
+  }
+  /* line 1258, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__photo h3 {
+    width: 70vw;
+  }
+  /* line 1261, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__photo .grid__photo__blocks + img {
+    max-width: 90vw;
+    margin-left: 4vw;
+    padding-top: 10vw;
+  }
+  /* line 1269, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__text-brake img {
+    margin-left: 8vw;
+  }
+  /* line 1272, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__text-brake img + img {
+    max-width: 75vw;
+  }
+  /* line 1275, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__text-brake p + img:last-of-type {
+    max-width: 85vw;
+  }
+  /* line 1279, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples {
+    background-color: #101010;
+    padding-top: 1vw;
+    margin-top: 10vw;
+    padding-bottom: 10vw;
+  }
+  /* line 1284, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples h3 {
+    margin-left: 8vw;
+    color: #fff;
+  }
+  /* line 1288, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .examples {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-left: 8vw;
+  }
+  /* line 1293, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .examples img {
+    max-width: 65vw;
+    padding-right: 2vw;
+  }
+  /* line 1298, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .examples + img {
+    max-width: 40vw;
+    margin-left: 8vw;
+    padding-top: 4vw;
+  }
+  /* line 1304, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .poster-check .poster-check__block {
+    margin-left: 16vw;
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* line 1309, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__text-brake .grid__text-brake__examples .poster-check .poster-check__block:last-of-type {
+    margin-left: 16vw;
+  }
+  /* line 1319, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule p + img {
+    padding-top: 3vw;
+    margin-left: 0;
+    max-width: 100vw;
+  }
+  /* line 1324, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule img + h3 {
+    padding-top: 6vw;
+  }
+  /* line 1327, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule p {
+    padding-top: 4vw;
+  }
+  /* line 1330, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule .photo__rule__faces {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 8vw;
+  }
+  /* line 1335, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule .photo__rule__faces img {
+    max-width: 27vw;
+    margin-left: 0;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+  }
+  /* line 1343, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule .photo__rule__topic {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-left: 8vw;
+  }
+  /* line 1348, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule .photo__rule__topic img {
+    max-width: 90vw;
+    padding-right: 2vw;
+  }
+  /* line 1352, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule .photo__rule__topic img + img {
+    margin-left: 0vw;
+  }
+  /* line 1356, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule .photo__rule__topic + img {
+    max-width: 40vw;
+    margin-left: 8vw;
+    padding-top: 4vw;
+  }
+  /* line 1366, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__metaphor__pics {
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* line 1369, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__metaphor__pics img {
+    margin-left: 8vw;
+    padding-right: 4vw;
+    max-width: 30vw;
+  }
+  /* line 1374, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__metaphor__pics img + img {
+    max-width: 30vw;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  /* line 1380, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__metaphor__photos {
+    margin-left: 4vw;
+    padding-top: 6vw;
+    padding-bottom: 8vw;
+  }
+  /* line 1384, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__metaphor__photos img {
+    margin-left: 0;
+    padding-right: 2vw;
+    max-height: 50vw;
+  }
+  /* line 1390, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__mechanic {
+    margin-bottom: 20vw;
+  }
+  /* line 1392, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__mechanic ul {
+    padding-bottom: 6vw;
+  }
+  /* line 1394, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__mechanic ul li {
+    max-width: 55vw;
+    margin-left: 8vw;
+  }
+  /* line 1400, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__mechanic img {
+    max-width: 85vw;
+    margin-top: -3vw;
+    justify-content: center;
+    margin-left: 8vw;
+  }
+  /* line 1406, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__usage {
+    padding-top: 30vw;
+  }
+  /* line 1408, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__usage .graphic__blocks {
+    display: block;
+  }
+  /* line 1410, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__usage .graphic__blocks .graphic__block {
+    width: 70vw;
+  }
+  /* line 1414, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__usage .graphic__poster {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 36vw 36vw;
+    margin-left: 8vw;
+  }
+  /* line 1419, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__usage .graphic__poster img {
+    max-width: 35vw;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+  }
+  /* line 1426, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media {
+    margin-left: 8vw;
+    padding-top: 2vw;
+  }
+  /* line 1431, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__insta {
+    padding-top: 4vw;
+  }
+  /* line 1433, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__insta img {
+    max-height: 52vw;
+  }
+  /* line 1438, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__fb {
+    padding-top: 4vw;
+    display: block;
+  }
+  /* line 1441, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__fb img {
+    max-width: 60vw;
+    padding-top: 2vw;
+    margin-left: 0;
+  }
+  /* line 1448, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__yt {
+    padding-top: 4vw;
+  }
+  /* line 1450, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__yt img {
+    max-width: 60vw;
+    margin-left: 0;
+  }
+  /* line 1455, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__tw {
+    padding-top: 4vw;
+    display: block;
+  }
+  /* line 1458, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__tw img {
+    max-width: 60vw;
+    margin-left: 0;
+  }
+  /* line 1463, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__print {
+    padding-top: 2vw;
+    display: block;
+  }
+  /* line 1466, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__print img {
+    max-height: 50vw;
+    margin-left: 0;
+  }
+  /* line 1474, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .voice {
+    padding-bottom: 10vw;
+  }
+  /* line 1476, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .voice .voice__blocks {
+    margin-left: 8vw;
+    padding-top: 5vw;
+    display: block;
+  }
+  /* line 1480, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .voice .voice__blocks img {
+    max-width: 60vw;
+    padding-top: 4vw;
+  }
+  /* line 1484, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .voice .voice__blocks img:nth-of-type(1) {
+    margin-left: 40vw;
+    margin-top: -10vw;
+  }
+  /* line 1488, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .voice .voice__blocks img:nth-of-type(2) {
+    margin-left: 26vw;
+    margin-top: 10;
+  }
+  /* line 1492, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .voice .voice__blocks img:nth-of-type(3) {
+    margin-left: 16vw;
+    margin-top: 0;
+  }
+  /* line 1496, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .voice .voice__blocks img:nth-of-type(4) {
+    position: relative;
+    margin-left: 6vw;
+    margin-top: 0;
+  }
+  /* line 1506, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .merch .merch__block {
+    margin-left: 8vw;
+  }
+  /* line 1508, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .merch .merch__block img {
+    padding-right: .1vw;
+    max-height: 60vw;
+  }
+  /* line 1513, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .merch .merch__block:nth-of-type(1) {
+    padding-top: 2vw;
+    padding-left: 230vw;
+  }
+  /* line 1517, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .merch .merch__block:nth-of-type(2) {
+    padding-top: 2vw;
+    padding-left: 110vw;
+  }
+  /* line 1521, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .merch .merch__block:nth-of-type(3) {
+    padding-top: 2vw;
+    padding-left: 200vw;
+  }
+  /* line 1525, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .merch .final-logo {
+    margin-left: 42vw;
+  }
+  /* line 1527, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .merch .final-logo img {
+    max-width: 16vw;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 414px) {
+  /* line 1537, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section {
+    padding-bottom: 120vw;
+  }
+  /* line 1539, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section .head-section__surface {
+    margin-top: 50vw;
+  }
+  /* line 1543, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section .head-section__top .head-section__top__left {
+    padding: 6vw;
+  }
+  /* line 1545, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .head-section .head-section__top .head-section__top__left img {
+    max-width: 6vw;
+  }
+  /* line 1551, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper h2 {
+    margin-top: 12vw;
+    font-size: 13vw;
+  }
+  /* line 1555, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper h3 {
+    font-size: 6.5vw;
+  }
+  /* line 1558, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper h4 {
+    font-size: 4.5vw;
+  }
+  /* line 1561, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper h5 {
+    font-size: 5vw;
+  }
+  /* line 1564, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper p, .styleguide-wrapper li {
+    margin-top: 4vw;
+    font-size: 4vw;
+    max-width: 80vw;
+    line-height: 135%;
+  }
+  /* line 1570, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper img {
+    margin-left: 0vw;
+  }
+  /* line 1574, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .menu .burger {
+    display: none;
+  }
+  /* line 1577, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .menu ul {
+    display: none;
+  }
+  /* line 1582, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo img {
+    margin-left: 8vw;
+  }
+  /* line 1586, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__pics img:first-child {
+    width: 70vw;
+  }
+  /* line 1589, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__pics img:nth-child(2) {
+    width: 50vw;
+  }
+  /* line 1592, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__use__pics img:nth-child(3) {
+    width: 30vw;
+  }
+  /* line 1598, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__locations .logo__form__location__restrict {
+    display: block;
+  }
+  /* line 1600, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__locations .logo__form__location__restrict .restrict img {
+    max-width: 70vw;
+  }
+  /* line 1603, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .logo .logo__form__locations .logo__form__location__restrict .restrict p {
+    width: 70vw;
+  }
+  /* line 1613, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__choice__main img {
+    max-width: 40vw;
+  }
+  /* line 1618, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__choice__sub img {
+    max-width: 30vw;
+  }
+  /* line 1621, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__choice__sub p {
+    max-width: 25vw;
+  }
+  /* line 1625, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .main-color-rect:last-child {
+    margin-left: 0;
+  }
+  /* line 1628, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .sub-color-rect:last-child {
+    margin-left: 0;
+  }
+  /* line 1632, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .amount__color {
+    margin-left: 3vw;
+  }
+  /* line 1634, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .amount__color img {
+    width: 95vw;
+  }
+  /* line 1640, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__couples img {
+    max-width: 70vw;
+  }
+  /* line 1643, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__couples .color__couples__comb {
+    margin-left: 16vw;
+  }
+  /* line 1647, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .color .color__couples__restrict {
+    margin-left: 16vw;
+  }
+  /* line 1653, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__font__choice__text {
+    padding-top: 3vw;
+  }
+  /* line 1655, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__font__choice__text p {
+    max-width: 70vw;
+    margin-left: 8vw;
+  }
+  /* line 1660, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__slant {
+    padding-bottom: 10vw;
+  }
+  /* line 1664, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .typo .typo__format {
+    padding-bottom: 10vw;
+  }
+  /* line 1670, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .final-formats {
+    margin-left: 0;
+    display: block;
+  }
+  /* line 1673, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .final-formats img {
+    max-width: 70vw;
+  }
+  /* line 1676, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .final-formats p {
+    margin-left: 8vw;
+  }
+  /* line 1681, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .final-format img {
+    margin-left: 8vw;
+  }
+  /* line 1687, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__photo .grid__photo__example img {
+    max-width: 70vw;
+  }
+  /* line 1691, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .grid .grid__photo .grid__block {
+    display: block;
+  }
+  /* line 1698, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule .photo__rule__faces {
+    margin-left: 3.5vw;
+  }
+  /* line 1700, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule .photo__rule__faces img {
+    max-width: 30vw;
+  }
+  /* line 1704, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .photos .photos__rule .photo__rule__topic {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-left: 8vw;
+  }
+  /* line 1713, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__metaphor__pics {
+    display: block;
+  }
+  /* line 1715, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__metaphor__pics img {
+    margin-left: 8vw;
+    max-width: 60vw;
+  }
+  /* line 1719, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__metaphor__pics img + img {
+    padding-left: 8vw;
+  }
+  /* line 1724, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__metaphor__photos img {
+    max-height: 55vw;
+  }
+  /* line 1730, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__mechanic ul li {
+    max-width: 70vw;
+  }
+  /* line 1735, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__mechanic img {
+    margin-left: 8vw;
+  }
+  /* line 1738, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__poster {
+    margin-left: 4vw;
+  }
+  /* line 1740, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__poster img {
+    max-width: 45vw;
+  }
+  /* line 1745, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__fb img {
+    max-width: 70vw;
+  }
+  /* line 1751, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__yt img {
+    max-width: 70vw;
+  }
+  /* line 1756, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .graphic .graphic__media__tw img {
+    max-width: 70vw;
+  }
+  /* line 1765, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .voice .voice__blocks img {
+    max-width: 80vw;
+  }
+  /* line 1768, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .voice .voice__blocks img:nth-of-type(1) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  /* line 1772, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .voice .voice__blocks img:nth-of-type(2) {
+    margin-left: 6vw;
+    margin-top: 0;
+  }
+  /* line 1776, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .voice .voice__blocks img:nth-of-type(3) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  /* line 1785, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .merch .merch__block:nth-of-type(1) {
+    padding-left: 130vw;
+  }
+  /* line 1788, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .merch .merch__block:nth-of-type(2) {
+    padding-left: 110vw;
+  }
+  /* line 1791, app/assets/stylesheets/styleguide.scss */
+  .styleguide-wrapper .merch .merch__block:nth-of-type(3) {
+    padding-left: 15vw;
+  }
+}
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic");
+/*
+body {
+  margin: 0 auto;
+  padding: 0 10%;
+  font-family: $font;
+}
+
+h1, h3, h2 {
+  font-weight: 700;
+}
+
+h1, h3, h2, p {
+  padding: 0 5%;
+}
+
+h1 {
+  font-size: $h1Size;
+  margin-top: $textBlockHeight + 20px;
+}
+
+h1 + p {
+  margin-top: $textBlockHeight - 20px;
+  color: grey;
+  font-size: $paragraphSize + 4px;
+  line-height: 28px;
+}
+*/
+/* line 40, app/assets/stylesheets/welcome.scss */
+.textblock {
+  margin: 40px 0 40px;
+}
+
+/* line 43, app/assets/stylesheets/welcome.scss */
+.textblock h3 {
+  padding-top: 12px;
+  font-size: 32px;
+}
+
+/* line 48, app/assets/stylesheets/welcome.scss */
+.textblock p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 8px;
+}
+
+/* line 56, app/assets/stylesheets/welcome.scss */
+blockquote {
+  text-decoration: none;
+  position: relative;
+  font-style: italic;
+  color: grey;
+  position: relative;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 66, app/assets/stylesheets/welcome.scss */
+blockquote::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  height: 100%;
+  width: 2px;
+  background-color: #000;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+ .top_menu {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: 100%;
+   height: 40px;
+   background: #eee;
+   border-bottom: 1px solid #ddd;
+ }
+ .top_menu a {
+   margin: 0 20px;
+ }
+
+/*# sourceMappingURL=application.css-644366e9f986682669b6451f54d4d067640e740d02b375bb48656b0fd7681f5a.map */

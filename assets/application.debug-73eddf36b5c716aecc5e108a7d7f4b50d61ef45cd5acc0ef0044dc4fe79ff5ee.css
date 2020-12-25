@@ -2,7 +2,7 @@
 @import "reset.css";
 @font-face {
   font-family: "Ponzu";
-  src: url("http://localhost:3000/fonts/Ponzu-LightItalic.ttf") format("truetype");
+  src: url(http://localhost:3000/fonts/Ponzu-LightItalic.ttf) format("truetype");
   font-style: italic;
   font-weight: normal;
 }

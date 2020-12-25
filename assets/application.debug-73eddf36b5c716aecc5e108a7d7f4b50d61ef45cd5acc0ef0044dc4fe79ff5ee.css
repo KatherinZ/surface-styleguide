@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+@import "reset.css";
+@font-face {
+  font-family: "Ponzu";
+  src: url("http://localhost:3000/fonts/Ponzu-LightItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
 /* line 4, app/assets/stylesheets/comments.scss */
 input {
   border: 1px solid #EBEBEB;
@@ -23,17 +32,11 @@ textarea {
   border-radius: 10px;
   color: white;
 }
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
-@font-face {
-  font-family: "Ponzu";
-  src: url("http://localhost:3000/fonts/Ponzu-LightItalic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: normal;
-}
 /* line 8, app/assets/stylesheets/landing.scss */
 body * {
   transition: all .33s linear;
   cursor: url("landing_img/cursor-217ce825c7ec562e0b361981ebfebbd476d1c10bb696b77ae13703d5e9884f55.svg"), auto;
+  font-family: "Raleway", helvetica, sans-serif;
 }
 
 /* line 13, app/assets/stylesheets/landing.scss */
@@ -1279,7 +1282,7 @@ body * {
     margin-left: 0;
   }
 }
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap"); */
 /* line 6, app/assets/stylesheets/posts.scss */
 body {
   width: 80%;
@@ -1383,7 +1386,7 @@ table {
 	border-spacing: 0;
 }
 @import url(reset.css);
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap"); */
 @font-face {
   font-family: "Ponzu";
   src: url("http://localhost:3000/fonts/Ponzu-LightItalic.ttf") format("truetype");
@@ -1401,7 +1404,7 @@ body {
   width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', helvetica, sans-serif;
   font-weight: 400;
   position: relative;
 }
@@ -1464,7 +1467,7 @@ div.actions {
 label {
   display: block;
 }
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"); */
 /* line 8, app/assets/stylesheets/styleguide.scss */
 .styleguide-wrapper body {
   font-family: 'Raleway', sans-serif;

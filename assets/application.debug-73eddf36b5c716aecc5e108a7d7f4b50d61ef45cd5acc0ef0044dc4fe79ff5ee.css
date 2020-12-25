@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
 @import "reset.css";
 @font-face {
-  font-family: "Ponzu";
-  src: url(http://localhost:3000/fonts/Ponzu-LightItalic.ttf) format("truetype");
+  font-family: 'Ponzu';
+  src: url(/assets/Mint Type - Ponzu-LightItalic.otf)
+  format('opentype');
   font-style: italic;
   font-weight: normal;
 }
